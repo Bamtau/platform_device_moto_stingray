@@ -24,10 +24,17 @@ PRODUCT_PACKAGES := \
         HoloSpiralWallpaper \
         LiveWallpapersPicker \
         VisualizationWallpapers
+        PhaseBeam \
+        NoiseField \
+        Galaxy4 \
 
 # Camera
 PRODUCT_PACKAGES += \
     Camera
+    FileManager \
+    Trebuchet \
+    CMSettings \
+    LibertySettings
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
